@@ -1,0 +1,31 @@
+.bg-white{
+	background:#ffffff;
+}
+
+.bg-w{
+	background: #ffffff !important;
+}
+@media (min-width: 900px){
+	#container{
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 899px){
+	#container{
+		width: 100%;
+	}
+}
+
+.fav{
+	background-repeat: no-repeat !important;
+	background-size: 100% auto !important;
+  background-position: center center !important;
+	height: 150px;
+}
+
+.historial li{
+	list-style: none;
+	border-bottom: 1px solid  #c6c6c6;
+}
